@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/MainStyle.uss?fileID=7433441132597879392&amp;guid=b7d04d3323f31ae4e8828077c3f7e707&amp;type=3#MainStyle" />
+    <ui:VisualElement name="background">
+        <ui:VisualElement name="main-container">
+            <ui:VisualElement name="right-container">
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="button-anim1" class="button-anim" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 20px;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="button-anim2" class="button-anim" style="background-color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 20px;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="button-anim3" class="button-anim" style="background-color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 20px;" />
+            </ui:VisualElement>
+            <ui:Button text="SELECT" display-tooltip-when-elided="true" name="button-select" style="transform-origin: center; background-color: rgb(93, 189, 238); -unity-font-style: bold; font-size: 40%; color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
